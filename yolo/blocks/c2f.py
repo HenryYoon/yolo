@@ -4,6 +4,7 @@ import torch.nn as nn
 
 class C2f(nn.Module):
     def __init__(self, c_in, c_out, n):
+        super().__init__()
         self.conv = Conv(k=1, s=1, p=0, c=c_out)
         self.bottleneck = nn.ModuleList([
             Bottleneck() for _ in n

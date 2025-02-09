@@ -4,6 +4,7 @@ import torch.nn as nn
 
 class SPPF(nn.Module):
     def __init__(self):
+        super().__init__()
         self.conv = Conv(k=1, s=1, p=0)
         self.maxpool = MaxPool2d()
         self.concat = Concat()

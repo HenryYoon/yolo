@@ -3,6 +3,7 @@ import torch.nn as nn
 
 class Detect(nn.Module):
     def __init__(self, c):
+        super().__init__()
         self.conv = Conv(k=1, s=1, p=1)
         self.conv2d = Conv2d(k=1, s=1, p=1, c=c)
 
