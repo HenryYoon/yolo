@@ -8,4 +8,10 @@ class MosaicTransform(v2.Transform):
         super().__init__()
 
     def transform():
+        # get the center
+
+        # shrink images to be attached
+
+        # attach images (4 or 9 images)
+
         pass

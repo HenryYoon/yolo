@@ -3,3 +3,4 @@ venv/
 prd/
 __pycache__/
 *.pyd
+yolo/coco128/
