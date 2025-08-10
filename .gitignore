@@ -1,3 +1,5 @@
 .*/
 venv/
 prd/
+__pycache__/
+*.pyd
