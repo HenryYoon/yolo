@@ -44,7 +44,7 @@ yolo
 
 ### TODO:
 - [ ] Implement Transforms
-  - [ ] LetterBox
+  - [x] LetterBox
   - [ ] Mosaic
   - [ ] Flip
   - [ ] HSV
